@@ -1,0 +1,49 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+
+  "logo": {
+    "type": "file",
+    "source": "/home/mint/Linux Configuration/logo.txt",
+    "color": {
+      "1": "red"
+    }
+  },
+
+  "display": {
+    "color": {
+      "keys": "red",
+      "title": "red"
+    }
+  },
+  "modules": [
+    "break",
+    "title",
+    "separator",
+
+    "break",
+    "break",
+
+    "os",
+    "kernel",
+    "terminal",
+    "shell",
+
+    "break",
+    "break",
+
+    "cpu",
+    "memory",
+    "swap",
+    "battery",
+
+    "break",
+    "break",
+
+    "uptime",
+    "packages",
+
+    "break",
+    "break",
+    "colors"
+  ]
+}
